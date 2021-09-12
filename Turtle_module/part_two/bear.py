@@ -35,4 +35,7 @@ def bear():
     eyers()
     bear_nose_and_mouth()
     eyes()
+    t.penup()
+    t.speed(1)
+    t.forward(1000)
 bear()

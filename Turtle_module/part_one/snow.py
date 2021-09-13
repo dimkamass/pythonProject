@@ -1,5 +1,6 @@
 import turtle as t
 
+
 def romb(side):
     t.right(10)
     for _ in range(10):
@@ -9,4 +10,6 @@ def romb(side):
             t.forward(side)
             t.left(120)
         t.left(40)
+
+
 romb(100)

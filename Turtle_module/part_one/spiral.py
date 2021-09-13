@@ -1,7 +1,9 @@
 import turtle as t
-t.speed(100)
-def draw(count,side):
 
+t.speed(100)
+
+
+def draw(count, side):
     def square(side):
         for _ in range(2):
             t.right(90)
@@ -12,4 +14,4 @@ def draw(count,side):
         square(side)
 
 
-draw(50,100)
+draw(50, 100)

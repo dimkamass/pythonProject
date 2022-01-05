@@ -1,5 +1,9 @@
-
-with open('input.txt') as file, open('output.txt','w') as my_output:
-    stroka=file.readlines()
-    for num,stroka in enumerate(stroka,1):
-        my_output.write(f'{num}) {stroka}')
+j=set(input())
+s=input()
+count=0
+for i in j:
+    for q in s:
+        if i==q:
+            count+=1
+print(count)
+print(j)

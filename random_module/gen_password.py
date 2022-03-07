@@ -1,3 +1,8 @@
+"""
+generation password
+
+"""
+
 import random
 import string
 
@@ -7,8 +12,9 @@ bad_symbol = '01iIoOlL'
 for i in my_list1:
     if i not in bad_symbol:
         my_list.append(i)
-
+print('Input count of passwords:', end=' ')
 count = int(input())
+print('Input lenght of passwords:', end=' ')
 length = int(input())
 
 

@@ -1,8 +1,14 @@
+"""
+
+Merge two lists
+
+"""
+
 first = [1, 4, 5, 9, 14, 55, 80]
 second = [3, 6, 9]
 
 
-def merge_two_lists(lst1, lst2): # cлияние 2-ух отсортированных списков
+def merge_two_lists(lst1, lst2):  # cлияние 2-ух отсортированных списков
     finish_list = []
 
     while len(lst1) > 0 and len(lst2) > 0:

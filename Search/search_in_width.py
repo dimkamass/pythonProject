@@ -1,7 +1,11 @@
-from collections import deque
+"""
 
 # if name[-1]='m', its mean that this person is mango seller.
 # else: no mango seller
+
+"""
+
+from collections import deque
 
 my_dict = {'you': ['Bob', 'Clar', 'Alice'],
            'Bob': ['Anuj', 'Peggi'],
